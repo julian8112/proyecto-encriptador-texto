@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripador texto</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main class="main-container">
+        <section class="container1">
+            <div class="con1">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="container1btn">
+                <input type="text" class="input-text" id="textoEntrada"  placeholder="ingrese el texto aqui">
+                <!-- <textarea name="Julio" id="xsxxs"></textarea> -->
+                 <br>
+                 <br>
+                 <br>
+                <p>Solo letras minúsculas y sin acentos</p>  
+                <button onclick="showcontent()" class="button-encriptador" id="encriptarbtn">Encriptar</button>
+                <button id="desencriptarbtn" class="button-desencriptar">Desencriptar </button> 
+            </div>
+            <div>
+               
+                <input type="text" class="input-text2" id="textoSalida"  placeholder="ningun mensaje fue encontrado">
+                <button id="copiarBtn">Copiar texto</button>
+            </div>
+        </section> 
+        
+    </main>
+    <script src="./app.js"></script>
+    <footer>
+        <p>Desarrollado por Julio Reyes</p>
+    </footer>
+</body>
+</html>

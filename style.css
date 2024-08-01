@@ -1,0 +1,54 @@
+body {
+    
+    background-color: #F3F5FC;
+}
+.container1 {
+    display: flex;
+    flex-direction: center;
+    align-items: center; /*centar de manera vertical  */
+    gap: 20px;   /*el espacio entre botones  */
+}
+.container1 > div {
+    margin: 50px;
+}
+
+  
+.input-text {
+    display: flex;
+    width: 577px;
+    height: 300px;
+    top: 168px;
+    left: 240px;
+    gap: 20;
+   
+}
+
+.input-text2 {
+    width: 400px;
+    height: 500px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background-image: url('img/imagen1.png');
+    background-repeat: no-repeat;
+   
+}
+
+.button-encriptador {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    background-color: #0A3871;
+    color: #F3F5FC;
+    border-radius: 30PX;
+}
+
+.button-desencriptar {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+    background-color: #F3F5FC;
+    border-radius: 30PX;
+}
